@@ -1,0 +1,20 @@
+These are a collection of kernel configs.
+
+The source to the Linux kernel can always be found at https://kernel.org
+
+Download the source tarball of the kernel that corresponds with the config you want to use. e.g.
+
+	pur_4.5.0.config
+
+would correspond to version 4.5(.0) of the Linux kernel, found at:
+
+	https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.5.tar.xz
+
+From there, it's normal kernel compilation- load the config and start making.
+
+
+Some useful resources to get you started:
+https://wiki.archlinux.org/index.php/Kernels/Compilation/Traditional
+https://wiki.gentoo.org/wiki/Kernel/Configuration
+
+(Obviously you can ignore distro-specific tools, such as emerge and eselect, mentioned in the above.)
