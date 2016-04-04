@@ -19,7 +19,9 @@ ALTERNATIVELY, we attach the canonical upstream kernel sources as a submodule. Y
   $ git submodule update --init
 
 and it will fetch the kernel sources for you. Note that this is a *very large* repository, so it will take a fair bit of time to fetch.
-They can be found in <project path>/upstream/.
+They can be found in <project path>/upstream/. The releases should be tagged, so if you are following the example above of 4.5.0, you would change directory to 'upstream' and run:
+
+  $ git checkout v4.5
 
 From there, it's normal kernel compilation- load the config and start making. Optionally patch in the supplied patches for that version (if any).
 
