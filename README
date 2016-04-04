@@ -2,7 +2,7 @@ Contributory towards http://purlinux.org
 
 
 
-These are a collection of kernel configs.
+These are a collection of kernel configs and patches.
 
 The source to the Linux kernel can always be found at https://kernel.org
 
@@ -14,7 +14,7 @@ would correspond to version 4.5(.0) of the Linux kernel, found at:
 
 	https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.5.tar.xz
 
-From there, it's normal kernel compilation- load the config and start making.
+From there, it's normal kernel compilation- load the config and start making. Optionally patch in the supplied patches for that version (if any).
 
 
 Some useful resources to get you started:
